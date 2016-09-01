@@ -1,21 +1,10 @@
-<?php namespace Illuminate\Database\Eloquent;
+<?php
 
-interface ScopeInterface {
+namespace Illuminate\Database\Eloquent;
 
-	/**
-	 * Apply the scope to a given Eloquent query builder.
-	 *
-	 * @param  \Illuminate\Database\Eloquent\Builder  $builder
-	 * @return void
-	 */
-	public function apply(Builder $builder);
-
-	/**
-	 * Remove the scope from the given Eloquent query builder.
-	 *
-	 * @param  \Illuminate\Database\Eloquent\Builder  $builder
-	 * @return void
-	 */
-	public function remove(Builder $builder);
-
+/**
+ * @deprecated since version 5.2. Use Illuminate\Database\Eloquent\Scope.
+ */
+interface ScopeInterface extends Scope
+{
 }
