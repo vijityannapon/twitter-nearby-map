@@ -32,7 +32,7 @@
                 <div class="input-group">
                     <input type="text" class="form-control" id="location" name="location" placeholder="Search for...">
                     <span class="input-group-btn">
-                        <button class="btn btn-secondary" type="submit" id="search">Go!</button>
+                        <button class="btn btn-primary" type="submit" id="search">Go!</button>
                     </span>
                 </div>
             </div>
