@@ -33,7 +33,7 @@ function initMap() {
             };
 
             infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
+            infoWindow.setContent('You are here.');
             map.setCenter(pos);
 
         }, function() {
