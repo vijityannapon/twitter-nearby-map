@@ -22,9 +22,3 @@ Route::get('search', [
     'as'   => 'search', 
     'uses' => 'HomeController@search'
 ]);
-
-
-Route::get('labs', [
-    'as'   => 'labs', 
-    'uses' => 'HomeController@labs'
-]);

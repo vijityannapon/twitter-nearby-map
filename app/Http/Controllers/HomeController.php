@@ -58,12 +58,4 @@ class HomeController extends Controller
 
     }
 
-
-
-
-    public function labs() 
-    {
-       return view('labs');
-    }
-
 }
