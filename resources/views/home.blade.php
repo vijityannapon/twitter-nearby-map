@@ -8,7 +8,6 @@
 
         <link rel="stylesheet" href="{{ URL::asset('/assets/css/custom.css') }}" />
 
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfA9UUkERXuMPUWAvgBIhNBBtIF7ymrQw&libraries=places"></script>
 
